@@ -1,14 +1,15 @@
-﻿using System;
+﻿using Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
-using Entities.Abstract;
+
 
 namespace Entities.Concrete
 {
-    public class Category :IEntitiy
+    public class Category :IEntity
     {
-        public int CategoryID { get; set; }
+        public int CategoryId { get; set; }
         public string CategoryName { get; set; }
         
 

@@ -1,11 +1,12 @@
-﻿using System;
+﻿using Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using Entities.Abstract;
+
 
 namespace Entities.Concrete
 {
-    public class Product:IEntitiy
+    public class Product:IEntity
     {
         public int ProductID  { get; set; }
         public int CategoryID { get; set; }

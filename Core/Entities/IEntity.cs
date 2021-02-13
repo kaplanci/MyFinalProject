@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
 
-namespace Entities.Abstract
+namespace Core.Entities
+
 {
-    public interface IEntitiy
+    public interface IEntity
     {
         
     }
